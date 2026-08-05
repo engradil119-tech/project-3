@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FitZone Gym & Fitness</title>
+
+<link rel="stylesheet" href="fitzone.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">
+Fit<span>Zone</span>
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#trainers">Trainers</a></li>
+<li><a href="#membership">Membership</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<div class="menu">
+<i class="fa-solid fa-bars"></i>
+</div>
+
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+<div class="hero-text">
+
+<h4>NO PAIN • NO GAIN</h4>
+
+<h1>Transform Your Body</h1>
+
+<h2>Professional Gym & Fitness Center</h2>
+
+<p>
+
+Join Pakistan's modern fitness club with certified trainers, premium equipment and customized workout plans.
+
+</p>
+
+<div class="buttons">
+
+<a href="#membership" class="btn">Join Now</a>
+
+<a href="#about" class="btn2">Learn More</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="hero-gym.jpg" alt="Gym">
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+<div class="about-image">
+
+<img src="about-gym.jpg" alt="About Gym">
+</div>
+
+<div class="about-text">
+
+<h4>ABOUT FITZONE</h4>
+
+<h2>Train Hard Stay Strong</h2>
+
+<p>
+
+FitZone is equipped with world-class fitness machines, experienced coaches and personalized workout programs.
+
+</p>
+
+<p>
+
+Whether your goal is weight loss, bodybuilding, muscle gain or fitness, we are here to help you achieve it.
+
+</p>
+
+<div class="stats">
+
+<div class="stat-box">
+<h3>500+</h3>
+<p>Members</p>
+</div>
+
+<div class="stat-box">
+<h3>20+</h3>
+<p>Trainers</p>
+</div>
+
+<div class="stat-box">
+<h3>10+</h3>
+<p>Years</p>
+</div>
+
+<div class="stat-box">
+<h3>24/7</h3>
+<p>Open</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TRAINERS -->
+
+<section class="trainers" id="trainers">
+
+<h2 class="section-title">Our Trainers</h2>
+
+<div class="trainer-container">
+
+<div class="trainer-card">
+
+<img src="trainer1.jpg" alt="Trainer">
+<h3>David Smith</h3>
+
+<p>Bodybuilding Coach</p>
+
+</div>
+
+<div class="trainer-card">
+
+<img src="trainer2.jpg" alt="Trainer">
+<h3>Sarah Khan</h3>
+
+<p>Fitness Trainer</p>
+
+</div>
+
+<div class="trainer-card">
+
+<img src="trainer3.jpg" alt="Trainer">
+<h3>John Wilson</h3>
+
+<p>CrossFit Coach</p>
+
+</div>
+
+<div class="trainer-card">
+
+<img src="trainer4.jpg" alt="">
+
+<h3>Emma Davis</h3>
+
+<p>Yoga Instructor</p>
+
+</div>
+
+</div>
+
+</section><!-- ================= BMI CALCULATOR ================= -->
+
+<section class="bmi" id="bmi">
+
+<h2 class="section-title">BMI Calculator</h2>
+
+<div class="bmi-box">
+
+<input type="number" id="height" placeholder="Height (cm)">
+
+<input type="number" id="weight" placeholder="Weight (kg)">
+
+<button onclick="calculateBMI()">Calculate BMI</button>
+
+<h3 id="result">Your BMI: --</h3>
+
+</div>
+
+</section>
+
+<!-- ================= MEMBERSHIP ================= -->
+
+<section class="membership" id="membership">
+
+<h2 class="section-title">Membership Plans</h2>
+
+<div class="plan-container">
+
+<div class="plan-card">
+
+<h3>Basic</h3>
+
+<h1>$20</h1>
+
+<p>Per Month</p>
+
+<ul>
+
+<li>Gym Access</li>
+<li>Locker Facility</li>
+<li>Free WiFi</li>
+<li>Changing Room</li>
+
+</ul>
+
+<button>Join Now</button>
+
+</div>
+
+<div class="plan-card popular">
+
+<h3>Premium</h3>
+
+<h1>$40</h1>
+
+<p>Per Month</p>
+
+<ul>
+
+<li>Personal Trainer</li>
+<li>Diet Plan</li>
+<li>Cardio Program</li>
+<li>Weight Training</li>
+
+</ul>
+
+<button>Join Now</button>
+
+</div>
+
+<div class="plan-card">
+
+<h3>VIP</h3>
+
+<h1>$60</h1>
+
+<p>Per Month</p>
+
+<ul>
+
+<li>24/7 Access</li>
+<li>Private Trainer</li>
+<li>Nutrition Guide</li>
+<li>Spa & Sauna</li>
+
+</ul>
+
+<button>Join Now</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= GALLERY ================= -->
+
+<section class="gallery" id="gallery">
+
+<h2 class="section-title">Gym Gallery</h2>
+
+<div class="gallery-container">
+
+<img src="gallery1.jpg" alt="">
+<img src="gallery2.jpg" alt="">
+<img src="gallery3.jpg" alt="">
+<img src="gallery4.jpg" alt="">
+<img src="gallery5.jpg" alt="">
+<img src="gallery6.jpg" alt="">
+</div>
+
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section class="testimonials">
+
+<h2 class="section-title">Success Stories</h2>
+
+<div class="testimonial-container">
+
+<div class="testimonial-card">
+
+
+<img src="client3.jpg" alt="">
+<h3>Ali Ahmed</h3>
+
+<p>"FitZone completely changed my lifestyle. Amazing trainers and equipment."</p>
+
+⭐⭐⭐⭐⭐
+
+</div>
+
+<div class="testimonial-card">
+<img src="client2.jpg" alt="">
+
+
+<h3>Sarah Khan</h3>
+
+<p>"Premium membership is worth every penny. Highly recommended."</p>
+
+⭐⭐⭐⭐⭐
+
+</div>
+
+<div class="testimonial-card">
+
+
+<img src="client1.jpg" alt="">
+<h3>Usman Ali</h3>
+
+<p>"Friendly environment with professional coaching."</p>
+
+⭐⭐⭐⭐⭐
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<form class="contact-form">
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<input type="text" placeholder="Subject">
+
+<textarea rows="6" placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<h2>FitZone Gym</h2>
+
+<p>Transform Your Body. Transform Your Life.</p>
+
+<div class="footer-social">
+
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+<a href="#"><i class="fab fa-whatsapp"></i></a>
+
+</div>
+
+<p>© 2026 FitZone Gym | All Rights Reserved</p>
+
+</footer>
+
+<script src="fitzone.js"></script>
+
+</body>
+</html>
